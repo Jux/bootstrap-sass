@@ -7,6 +7,9 @@ Gemfile.lock
 .rvmrc
 .rbenv-version
 
+.idea
+.idea/*
+
 # Ignore bundler config
 /.bundle
 /vendor/cache
