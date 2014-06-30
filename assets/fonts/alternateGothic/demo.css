@@ -1,0 +1,10 @@
+
+@import url("http://fast.fonts.com/t/1.css?apiType=css&projectid=948108b5-50c0-4da3-b113-f534f70dacd3");
+@font-face{
+font-family:"AlternateGothicW02-No1";
+src:url("Fonts/55f9eb5f-e951-4950-ae37-a189506cb4c6.eot?iefix") format("eot");}
+@font-face{
+font-family:"AlternateGothicW02-No1";
+src:url("Fonts/55f9eb5f-e951-4950-ae37-a189506cb4c6.eot?iefix");
+src:url("Fonts/a1407601-eb60-4c9c-9210-910e6da5be39.woff") format("woff"),url("Fonts/2e0efbc7-c675-4a48-a8a7-4b9af1e2a2cb.ttf") format("truetype"),url("Fonts/1df8467f-53c7-4c32-b004-640e52452762.svg#1df8467f-53c7-4c32-b004-640e52452762") format("svg");
+}
