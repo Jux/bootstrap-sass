@@ -25,6 +25,11 @@
   vertical-align:middle
 }
 
+
+@import "bootstrap/glyphicons-filetypes";
+@import "bootstrap/glyphicons-social";
+@import "bootstrap/glyphicons-halflings";
+
 .glyphicons-white:before { color:#fff }
 .glyphicons-glass:before { content:"\E001" }
 .glyphicons-leaf:before { content:"\E002" }

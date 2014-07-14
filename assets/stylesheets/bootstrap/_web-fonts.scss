@@ -1,15 +1,2 @@
 
-@mixin fontFace($font) {
-	@font-face {
-		font-family: $font;
-		src: url(if($bootstrap-sass-asset-helper, twbs-font-path('#{$font}/font.eot'), '#{$font}/font.eot'));
-		src: url(if($bootstrap-sass-asset-helper, twbs-font-path('#{$font}/font.eot?#iefix'), '#{$font}/font.eot?#iefix')) format('embedded-opentype'),
-		url(if($bootstrap-sass-asset-helper, twbs-font-path('#{$font}/font.woff'), '#{$font}/font.woff')) format('woff'),
-		url(if($bootstrap-sass-asset-helper, twbs-font-path('#{$font}/font.ttf'), '#{$font}/font.ttf')) format('truetype'),
-		url(if($bootstrap-sass-asset-helper, twbs-font-path('#{$font}/font.svg##{$icon-font-halflings-name}'), '#{$font}/font.svg##{$icon-font-halflings-name}')) format('svg');
-	}
-}
-
-@include fontFace($font:	"varelaRound");
-
-@include fontFace($font: "icomoon");
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
