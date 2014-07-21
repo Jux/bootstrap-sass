@@ -25,6 +25,8 @@ $brand-info:            #5bc0de !default;
 $brand-warning:         #f0ad4e !default;
 $brand-danger:          #d9534f !default;
 
+$border-focus:          #66afe9 !default;
+
 
 //== Scaffolding
 //
@@ -155,7 +157,7 @@ $table-border-color:            #ddd !default;
 $btn-font-weight:                normal !default;
 
 $btn-default-color:              #fff !default;
-$btn-default-bg:                 #b3b3b3 !default;
+$btn-default-bg:                 #999999 !default;
 $btn-default-border:             darken($btn-default-bg, 5%) !default;
 
 $btn-primary-color:              #fff !default;
@@ -186,7 +188,7 @@ $btn-link-disabled-color:        $gray-light !default;
 //##
 
 //** `<input>` background color
-$input-bg:                       #fff !default;
+$input-bg:                       #666666 !default;
 //** `<input disabled>` background color
 $input-bg-disabled:              $gray-lighter !default;
 
@@ -195,9 +197,9 @@ $input-color:                    $gray !default;
 //** `<input>` border color
 $input-border:                   #ccc !default;
 //** `<input>` border radius
-$input-border-radius:            $border-radius-base !default;
+$input-border-radius:            0px !default; //$border-radius-base !default;
 //** Border color for inputs on focus
-$input-border-focus:             #66afe9 !default;
+$input-border-focus:             $border-focus !default;
 
 //** Placeholder text color
 $input-color-placeholder:        $gray-light !default;
@@ -223,7 +225,7 @@ $input-group-addon-border-color: $input-border !default;
 //## Dropdown menu container and contents.
 
 //** Background for the dropdown menu.
-$dropdown-bg:                    #fff !default;
+$dropdown-bg:                    $white !default;
 //** Dropdown menu `border-color`.
 $dropdown-border:                rgba(0,0,0,.15) !default;
 //** Dropdown menu `border-color` **for IE8**.
