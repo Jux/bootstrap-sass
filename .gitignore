@@ -6,7 +6,7 @@ Gemfile.lock
 *.gemfile.lock
 .rvmrc
 .rbenv-version
-
+*.iml
 .idea
 .idea/*
 
