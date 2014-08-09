@@ -59,8 +59,8 @@ $font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
 
 $font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~36px
 $font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
-$font-size-h3:            ceil(($font-size-base * 1.85714285714286)) !default; // ~26px
-$font-size-h4:            ceil(($font-size-base * 1.42857142857143)) !default; // ~20px
+$font-size-h3:            floor(($font-size-base * 1.85714285714286)) !default; // ~26px
+$font-size-h4:            floor(($font-size-base * 1.42857142857143)) !default; // ~20px
 $font-size-h5:            ceil(($font-size-base * 1.14285714285714)) !default; // ~16px
 $font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
 
@@ -350,10 +350,10 @@ $container-lg:                 $container-large-desktop !default;
 //##
 
 // Basics of a navbar
-$navbar-height:                    50px !default;
+$navbar-height:                    38px !default;
 $navbar-margin-bottom:             $line-height-computed !default;
 $navbar-border-radius:             $border-radius-base !default;
-$navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
+$navbar-padding-horizontal:        9px !default;
 $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2) !default;
 $navbar-collapse-max-height:       340px !default;
 
