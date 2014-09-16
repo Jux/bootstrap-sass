@@ -318,3 +318,15 @@ address {
 .font-brand-danger {
   color: $brand-danger;
 }
+
+.font-disable-gray {
+  color: $gray-darker;
+
+  span{
+    color: $gray-darker;
+  }
+}
+
+.font-gray {
+  color: $gray1;
+}
