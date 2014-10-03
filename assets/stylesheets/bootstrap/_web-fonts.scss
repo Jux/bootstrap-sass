@@ -220,12 +220,6 @@
 .icon-layouticons-layout-full:before {
   content: "!";
 }
-.icon-publish-layout-half:before {
-  content: "\"";
-}
-.icon-publish-layout-left:before {
-  content: "#";
-}
 .icon-publish-layout-right:before {
   content: "$";
 }
@@ -249,4 +243,16 @@
 }
 .icon-chevron-up:before {
   content: "(";
+}
+.icon-publish-layout-left:before {
+  content: ")";
+}
+.icon-publish-layout-right-1:before {
+  content: "*";
+}
+.icon-arrow-left:before {
+  content: "\"";
+}
+.icon-arrow-right:before {
+  content: "#";
 }
